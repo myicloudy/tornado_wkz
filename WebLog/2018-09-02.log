@@ -1,0 +1,54 @@
+[2018-09-02 02:14:37,146][MainThread:6652][default:ERROR(241)]
+[DictionaryList:get]:list index out of range
+[2018-09-02 02:14:41,133][MainThread:6652][default:ERROR(241)]
+[DictionaryList:get]:list index out of range
+[2018-09-02 18:50:52,249][MainThread:4020][default:INFO(154)]
+[DictionaryList:post]:name 'alert' is not defined
+[2018-09-02 18:56:07,305][MainThread:6156][default:ERROR(179)]
+[DictionaryList:post]:(pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'valName\': "\'积分+微信\'", \'callBack\': "\'\'"}, \'111\', \'1\', 1535885767, 1535885\' at line 1') [SQL: 'INSERT INTO online_dictionary_list (`dictId`, `valKey`, value, remark, status, intime, uptime, indate) VALUES (%(dictId)s, %(valKey)s, %(value)s, %(remark)s, %(status)s, %(intime)s, %(uptime)s, %(indate)s)'] [parameters: {'dictId': '23', 'valKey': '0112', 'value': {'valName': '积分+微信', 'callBack': ''}, 'remark': '111', 'status': '1', 'intime': 1535885767, 'uptime': 1535885767, 'indate': 1535817600}] (Background on this error at: http://sqlalche.me/e/f405)
+[2018-09-02 19:09:41,681][MainThread:5344][default:INFO(155)]
+[DictionaryList:post]:name 'aaaaa' is not defined
+[2018-09-02 19:10:02,859][MainThread:5344][default:ERROR(180)]
+[DictionaryList:post]:(pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'valName\': "\'卡券+微信\'", \'callBack\': "\'\'"}, \'\', \'1\', 1535886602, 1535886602\' at line 1') [SQL: 'INSERT INTO online_dictionary_list (`dictId`, `valKey`, value, remark, status, intime, uptime, indate) VALUES (%(dictId)s, %(valKey)s, %(value)s, %(remark)s, %(status)s, %(intime)s, %(uptime)s, %(indate)s)'] [parameters: {'dictId': '26', 'valKey': '3', 'value': {'valName': '卡券+微信', 'callBack': ''}, 'remark': '', 'status': '1', 'intime': 1535886602, 'uptime': 1535886602, 'indate': 1535817600}] (Background on this error at: http://sqlalche.me/e/f405)
+[2018-09-02 19:29:54,939][MainThread:1008][default:INFO(155)]
+[DictionaryList:post]:invalid syntax (<string>, line 1)
+[2018-09-02 19:30:13,588][MainThread:1008][default:INFO(155)]
+[DictionaryList:post]:invalid syntax (<string>, line 1)
+[2018-09-02 19:41:46,429][MainThread:5612][default:ERROR(190)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-02 19:43:17,234][MainThread:1044][default:ERROR(190)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-02 19:47:30,395][MainThread:2420][default:ERROR(191)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-02 19:50:45,331][MainThread:1592][default:ERROR(187)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-02 20:07:39,469][MainThread:6856][default:ERROR(187)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-02 21:27:05,580][MainThread:7664][default:ERROR(170)]
+[DictionaryList:post]:malformed node or string: None
+[2018-09-02 21:29:44,069][MainThread:7364][default:ERROR(172)]
+[DictionaryList:post]:malformed node or string: None
+[2018-09-02 21:29:51,997][MainThread:7364][default:ERROR(172)]
+[DictionaryList:post]:malformed node or string: None
+[2018-09-02 21:35:13,313][MainThread:8084][default:ERROR(172)]
+[DictionaryList:post]:malformed node or string: None
+[2018-09-02 21:40:05,396][MainThread:7764][default:ERROR(172)]
+[DictionaryList:post]:malformed node or string: None
+[2018-09-02 21:46:13,606][MainThread:7764][default:ERROR(172)]
+[DictionaryList:post]:malformed node or string: None
+[2018-09-02 21:47:50,101][MainThread:7764][default:ERROR(172)]
+[DictionaryList:post]:malformed node or string: None
+[2018-09-02 21:50:03,507][MainThread:7540][default:ERROR(173)]
+[DictionaryList:post]:malformed node or string: None
+[2018-09-02 21:51:28,746][MainThread:4820][default:ERROR(173)]
+[DictionaryList:post]:'NoneType' object is not callable
+[2018-09-02 21:56:42,727][MainThread:4820][default:ERROR(173)]
+[DictionaryList:post]:'NoneType' object is not callable
+[2018-09-02 22:32:25,142][MainThread:2672][default:ERROR(173)]
+[DictionaryList:post]:'NoneType' object is not callable
+[2018-09-02 22:36:52,942][MainThread:1428][default:ERROR(173)]
+[DictionaryList:post]:malformed node or string: None
+[2018-09-02 23:00:14,463][MainThread:7324][default:ERROR(204)]
+[DictionaryList:get]:malformed node or string: None
+[2018-09-02 23:00:21,501][MainThread:7324][default:ERROR(204)]
+[DictionaryList:get]:malformed node or string: None

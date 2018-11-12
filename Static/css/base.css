@@ -1,0 +1,157 @@
+﻿body, ul, li, p, h3, h4 {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+body {
+	text-align: center;
+	background: #f4f8f9;
+}
+ul, li {
+	list-style: none;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+button:hover {
+	cursor: pointer;
+}
+.header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 126px;
+	background: url(../images/header_bg.png) repeat-x left top;
+	z-index: 2;
+}
+.main {
+	width: 1002px;
+	margin: 0 auto;
+}
+.top {
+	float: left;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	text-align: right;
+	color: #c6dee8;
+}
+.top a {
+	color: #c6dee8;
+	padding: 0 14px;
+	border-right: 1px solid #c6dee8;
+}
+.top a.userFlag {
+	padding: 0;
+	border-right: none;
+}
+a.topHelp  {
+	border: none;
+}
+.logo {
+	float: left;
+	padding: 24px 8px 0 0;
+	width: 280px;
+	height: 47px;
+}
+.logo a {
+	float: left;
+	display: black;
+	width: 186px;
+	height: 47px;
+	padding-right: 8px;
+}
+.logo em {
+	float: left;
+	padding-top: 16px;
+	font-style: normal;
+	color: #fff;
+	font-size: 20px;
+}
+.nav {
+	float: left;
+	padding: 24px 0 0 15px;
+	width: 535px;
+	height: 51px;
+}
+.nav li {
+	float: left;
+	width: 91px;
+	height: 52px;
+	line-height: 52px;
+	padding: 0 8px;
+}
+.nav li.focus {
+	background: url(../images/nav_focus.png) no-repeat center top;
+}
+.nav li.focus a {
+	color: #24b5f1;
+}
+.container {
+	float: left;
+	width: 100%;
+}
+.mainCont {
+	float: left;
+	width: 1000px;
+	padding-top: 151px;
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.footer {
+	float: left;
+	width: 100%;
+	padding-top: 30px;
+}
+.footerLink {
+	width: 100%;
+	height: 40;
+	line-height: 40px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.footer a {
+	font-size: 12px;
+	color: #b0b0b0;
+	padding: 0 10px;
+	border-right: 1px solid #b0b0b0;
+}
+.footer a.footerServ  {
+	border: none;
+}
+.copy {
+	width: 100%;
+	padding-top: 12px;
+}
+.copy p {
+	line-height: 24px;
+	color: #b0b0b0;
+	font-size: 12px;
+}
+.pages {
+	float: left;
+	width: 100%;
+	margin: 40px 0;
+}
+.pages span.current {
+    background-color: #edffd7;
+    border: 1px solid #77ce0c;
+    color: #70cc00;
+    font-weight: bold;
+    margin: 2px;
+    padding: 2px 5px;
+}
+.pages span a {
+    color: #999999;
+    margin: 3px;
+    padding: 2px 4px;
+}
+.pages a {
+    border: 1px solid #cccccc;
+    color: #999999;
+	margin: 3px;
+    padding: 2px 4px;
+    text-decoration: none;
+}

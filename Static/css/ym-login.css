@@ -1,0 +1,18 @@
+.ym-login-content{ margin-top: 0.5rem; background-color: #fff;}
+.ym-login-btn{ height: 2.2rem; line-height: 2.2rem; font-size: 0.8rem; color: #fff; margin: 1rem auto;}
+.ym-login-content .aui-list .aui-list-item-label,.ym-login-content .aui-list .aui-list-item-label-icon{ font-size: 0.7rem; color: #666;}
+.ym-login-content .aui-list .aui-list-item-label{ width: 40%;}
+.ym-login-content .ym-input-right{ width: 6rem;}
+.ym-login-content .ym-input-right .aui-btn{ width: 5rem; padding: 0px; height: 1.5rem; line-height: 1.5rem; text-align: center;}
+.ym-login-content .aui-list .aui-list-item{ height: 2.7rem; line-height: 2.7rem; padding-left: 0.5rem;}
+
+input[type="tel"],input[type="text"]{ color: #666;}
+
+.ym-forget-password{ font-size: 0.6rem; color: #939393; text-align: center; margin-top: 1rem;}
+.ym-xieyi{ margin-top: 1rem; padding-left: 0.5rem; font-size: 0.6rem; color: #939393; height: 0.9rem; line-height: 0.9rem;}
+.ym-xieyi .aui-radio{ width: 0.9rem; height: 0.9rem; margin-right: 0.5rem;}
+
+
+.ym-background-none{ background:none;}
+.ym-bg-color{ background-color:#3399ee !important; color:#fff;}
+button:active, .aui-btn:active{ color:#fff;}

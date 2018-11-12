@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>API-TESTER</title>
+    <style>
+      input,select{font-size:12px; color:#000; border:1px solid #bababa;margin:0;}
+    </style>
+    <script type="text/javascript" src="{{static_url('js/jquery-1.4.4.min.js')}}"></script>
+    <script type="text/javascript" src="{{static_url('js/json_beauty.js')}}"></script>
+    <script type="text/javascript" src="{{static_url('js/sjs-loader.js')}}"></script>
+    <script type="text/sjs" language="javascript">
+      var ok_no=0;
+      var nok_no=0;
+      var times = 0;
+      var warnNo = 0;
+      var efenceNo = 0;
+      var detect_ms = 5000; //检测间隔时间
+      var interval_handle;
+      var beginInvokeTime=0;
+      var base_url='http://localhost:9004'
+      //common function
+      function invoke_api(q)
+      {
+        var now = new Date();
+        var json_data = JSON.parse(q)
+        beginInvokeTime=now.getHours()*60*60*1000 + now.getMinutes()*60*1000 + now.getSeconds()*1000 + now.getMilliseconds();
+        $.ajax({
+              url:base_url+json_data.url,
+              type: 'post',
+              async: false,
+              dataType:'json',
+              timeout: 100000,
+              error: function(ret){deal_error(ret);},
+              success: function(xml){deal_result(xml);},
+              data: q
+        });
+      }
+
+      function deal_result(res)
+      {
+//        alert(JSON.stringify(res));
+        if(res.errCode == 0)
+        {
+          set_output(JSON.stringify(res));
+          echoOk();
+          calcReturn(res);
+
+        }
+        else
+        {
+          var out = JSON.stringify(res);
+          echoError();
+          set_output(out);
+
+        }
+        var now = new Date();
+        finishInvokeTime=now.getHours()*60*60*1000 + now.getMinutes()*60*1000 + now.getSeconds()*1000 + now.getMilliseconds();
+        $("#console").val(" spend " + (finishInvokeTime - beginInvokeTime) + " ms \n"+$("#console").val());
+      }
+
+      function stopTest()
+      {
+        times = 0;
+        clearInterval(interval_handle);
+      }
+
+      function calcReturn(res)
+      {
+        $("#resultNo").html("<"+res.totalRecordNum+">");
+      }
+
+      function deal_error(res)
+      {
+        set_output(JSON.stringify(res));
+        echoError();
+      }
+
+      function echoError()
+      {
+        nok_no = nok_no + 1;
+        $("#detailResult").html("<font color='green'>成功:["+ok_no+"]</font>/<font color='red'>失败:["+nok_no+"]</font>");
+      }
+
+      function echoOk()
+      {
+        ok_no = ok_no + 1;
+        $("#detailResult").html("<font color='green'>成功:["+ok_no+"]</font>/<font color='red'>失败:["+nok_no+"]</font>");
+      }
+
+      function execute(request)
+      {
+        if(request)
+        {
+          invoke_api(request);
+        }else if($("#testTime").val())
+        {
+          var now = new Date();
+          bTime=now.getHours()*60*60*1000 + now.getMinutes()*60*1000 + now.getSeconds()*1000 + now.getMilliseconds();
+          for(var i = 0; i < $("#testTime").val(); i++)
+          {
+              invoke_api($("#request").val());
+          }
+          var now = new Date();
+          eTime=now.getHours()*60*60*1000 + now.getMinutes()*60*1000 + now.getSeconds()*1000 + now.getMilliseconds();
+          $('#msgLabel').html($("#testTime").val()+" invoke spend "+(eTime-bTime)+" ms"+'<input type="button" onclick="format_input()" value="格式化代码" >');
+        }
+        else
+        {
+          invoke_api($("#request").val());
+        }
+      }
+
+      function formatJson(jsonStr)
+      {
+        var str = jsonStr.replace(/,/g,",\n").replace(/:\{/g,":\n{").replace(/\{\"/g,"{\n\"").replace(/\[\{/g,"[\n{");
+        str = str.replace(/\}/g,"\n\}").replace(/\]/g,"\n\]");
+        return str;
+      }
+      function format_input()
+      {
+        var jsontxt = js_beautify(unpacker_filter($("#request").val()), {
+            indent_size: 2,
+            indent_char: ' ',
+            preserve_newlines:true,
+            brace_style: 'expand',
+            keep_array_indentation:true,
+            space_after_anon_function:true});
+        $("#request").val(jsontxt);
+        //set_output("");
+      }
+
+      function ui_init(request)
+      {
+        var jsontxt = js_beautify(unpacker_filter(request), {
+            indent_size: 2,
+            indent_char: ' ',
+            preserve_newlines:true,
+            brace_style: 'expand',
+            keep_array_indentation:true,
+            space_after_anon_function:true});
+        $("#request").val(jsontxt);
+        set_output("");
+      }
+
+      function set_output(response)
+      {
+        if(!response)
+        {
+          $("#response").val("");
+        }
+        else
+        {
+          var jsontxt = js_beautify(unpacker_filter(response), {
+              indent_size: 2,
+              indent_char: ' ',
+              preserve_newlines:true,
+              brace_style: 'expand',
+              keep_array_indentation:false,
+              space_after_anon_function:true});
+          $("#response").val(jsontxt);
+        }
+      }
+
+
+
+
+      function showRequest()
+      {
+        eval($("#cmd").val());
+        continuousRun();
+      }
+
+      function continuousRun()
+      {
+        if($("#chooseBox").attr("checked"))
+        {
+          execute();
+        }
+      }
+
+      function dateString()
+      {
+        var randSuffix = Math.round(Math.random()*1000000);
+          var date = new Date();
+          var year = date.getFullYear();
+          var month = date.getMonth();
+          var dat = date.getDate();
+          var hour = date.getHours();
+          var minute = date.getMinutes();
+          var second = date.getSeconds();
+          var milisecond = date.getMilliseconds();
+          //return year+""+month+""+dat+""+hour+""+minute+""+second+""+milisecond+"_"+randSuffix;
+          return year+""+month+""+dat+""+hour+""+minute+""+second;//+""+milisecond+"_"+randSuffix;
+      }
+
+
+
+      function randCategory(randD)
+      {
+        var cates = [11,12,21,31,32,33,34,41,42,43,51,61];
+        if(randD%12==11)
+        {
+          return "";
+        }
+        else
+        {
+          return cates[randD%12];
+        }
+      }
+
+  </script>
+  <!---接口--->
+<script type="text/javascript">
+function errCode()
+      {
+        var q='{"codeNum":"800001","url":"/pay/create_order"}';
+        ui_init(q);
+      }//sendType
+
+
+  /**
+   * 获取token
+   * author   :gg
+   * create date  : 2016-04-09
+   */
+  function getWeixinBaseToken()
+      {
+        var q='{"cmd":"getWeixinBaseToken","params":{"sign":"shopmall","bid":"1","refresh":"0"}}';
+        ui_init(q);
+      }
+
+
+</script>
+  </head>
+
+
+  <body onload="showRequest()" style="font-family:'Courier New';">
+    <div id="command">
+      <label for="cmd" >API接口</label>
+      <select name="cmd" id="cmd" onchange="showRequest()">
+
+
+    <optgroup label="---------1.0的版本接口---------">
+                <option value="errCode()">读取错误代码</option>
+                <option value="getWeixinBaseToken()">获取token</option>
+      </optgroup>
+      </select>
+
+      <input id="testTime" type="text" style="width:30px;height:15px;font-family: 'Courier New';" value="1" >
+      <input type="button" onclick="execute()" value="单项测试" >
+      <label id="detailResult"></label>
+      <label id="resultNo"></label>
+      <label id="msgLabel"  style="float:right;margin-right:10px;"><input type="button" onclick="format_input()" value="格式化代码" ></label>
+    </div>
+    <hr>
+    <div>
+      <div id="in" style="width:30%;height:530px;float:left" >
+        <textarea id="request" style="width:100%;height:530px;font-family: 'Courier New';"> </textarea>
+      </div>
+      <div id="out" style="width:70%;height:530px;float:left" >
+        <textarea id="response" style="width:100%;height:530px;font-family: 'Courier New';" readonly> </textarea>
+      </div>
+
+    </div>
+
+    <div id="error_window" style="width:100%;height:100px;margin-top:523px">
+      <textarea id="console" style="width:100%;height:100px" readonly ></textarea>
+    </div>
+  </body>
+
+</html>

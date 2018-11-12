@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .pager a{
+            display: inline-block;
+            padding: 5px;
+            margin: 3px;
+            background-color: cadetblue;
+        }
+        .pager a.active{
+            background-color: brown;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <p>起始项索引值：{{pager.start_index}}</p>
+        <p>终止项索引值：{{pager.end_index}}</p>
+        <p>当前页：{{pager.page}}</p>
+        <p>共 {{pager.num_pages}} 页</p>
+        <p>每页显示 {{pager.num_per_page}} 个</p>
+        <p>base_url: {{pager.base_url}} </p>
+    </div>
+    <div class="pager">
+        {% raw pager.show_pager() %}
+    </div>
+</body>
+</html>

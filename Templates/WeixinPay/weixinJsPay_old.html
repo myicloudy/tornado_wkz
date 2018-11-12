@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width = device-width, initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>微信支付</title>
+
+<!-------微信支付js--Start----------->
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript">
+
+	//调用微信JS api 支付
+	function jsApiCall()
+	{
+		WeixinJSBridge.invoke(
+			'getBrandWCPayRequest',
+            {{ rawJson }},
+			function(res){
+				if(res.err_msg == "get_brand_wcpay_request:ok" ) {
+					//alert('支付成功！');
+                    window.location.href="<{:U('/Paysdk/WeixinJump/success',array('orderNumber'=>$orderNumber))}>";
+				}else{
+					//alert(res.err_msg);
+                    //alert('您取消了支付。');
+                    window.location.href="<{:U('/Paysdk/Pay/error',array('err_text'=>'您取消了支付'))}>";
+				}
+			}
+		);
+	}
+
+	function callpay()
+	{
+		if (typeof WeixinJSBridge == "undefined"){
+		    if( document.addEventListener ){
+		        document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+		    }else if (document.attachEvent){
+		        document.attachEvent('WeixinJSBridgeReady', jsApiCall);
+		        document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+		    }
+		}else{
+		    jsApiCall();
+		}
+	}
+</script>
+<script>
+wx.config({
+    debug: true,
+    appId: '{{raw['appId']}}',
+    timestamp: {{raw['timeStamp']}},
+    nonceStr: '{{raw['nonceStr']}}',
+    signature: '{{raw['paySign']}}',
+    jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage']
+});
+
+wx.ready(function () {
+	callpay();
+});
+wx.error(function (res) {
+ alert(res.errMsg);  //打印错误消息。及把 debug:false,设置为debug:ture就可以直接在网页上看到弹出的错误提示
+});
+</script>
+<!-------微信支付js--End----------->
+</head>
+<body >
+
+</body>
+</html>

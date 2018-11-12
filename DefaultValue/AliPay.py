@@ -1,0 +1,16 @@
+# coding:utf-8
+# @Explain : 说明
+# @Time    : 2018/08/17 上午10:48
+# @Author  : wangwenhao
+# @FileName: 商圈支付配置信息
+
+AliPay_Default = {
+   '1': {
+        'zfbpay': {
+            'url': 'https://openapi.alipay.com/gateway.do',
+            'appId': '2018010201522994',
+            'alipay_public_key': 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq/KMQPScqX9T0cQGwgU8QOTd4aET70Wscawo6Dlun3seZSQhi1NfRTs2gRfAP/Uan0MRkzAxQBYJ9dQA+1VodMS20f6JPO5WRMg2BYTaHDQCTcDoiFCyoSVrKm0Lh7S/UT33ww2SJ4tfMwDGTI1HJbcsV4MCTySp0buuelkFvTbs5tR0eyZKkEmZS7+sdpv+GDNBkJnv0NmmnMotQNmxT7gHHeprDvFo38hWaadoRuJfLqBv366aDQEjOczLWcOUvvztnRDbV6u0kfU6748JvWMLYiJYBA/Dd/xia0FP3a6V3kO0HpsB45bagH5qV2l8uZc8QhPhgL1tx9AHvyyuYQIDAQAB',
+            'app_private_key': 'MIIEpAIBAAKCAQEAvFDomm3PZX9j9KdCP2j166RAYU3oVH3Rr+PN1ZY7CGlE86koOet2Yd0d/wGwMI57TPL9Qg3vzeSW/BtDiVvTFNeIoxgReS8NrfuS/ps0xUEerIXnHJMZJjmp/wmVi5lAQXrxgHLshdpBb6ZwWSZWzP6TUu5GoiY2DeBuYckJIc7knvJSh2xBxRfAmvD94x+gpNknU5Ab9OB+pHforkARTu6KGs4Yc/SnzkP0lxWwNm78BmkhS+LUSPJUia1TxqA7JDrfkk0ZUZsfrRuqT9IMQk99oUyiF/RBu+v+bBouWhimnNp5ysY+eXNprL2j8o57CJ6nAhLdIuQCa+ZQDYwQjwIDAQABAoIBAQCR/kfWMXuwPGrJqUH61uyQmu4uga+0kTaXHgzdoXJyuunx3RqKjLlidYJjyHNHsa51oYwmQZfAD4/eM2TQgJfMeKw9hNNHF+uLDpaPPNRUeH/HUKgzxvagY+QfDNcbOtxN53qDEpW7z9EbNfWzp71zf4nHqWKpIuaVK4Fn3etugRp398O3G8lQEI8tiFs2Dm6sAOXQdKvynJoGpSHP84xFaV5DtVKbA5xiB8aZ43huP0iaWrFctGNFw1R129dV589xpEActwK/AqqQxF1uki8uY57wEfmVtx4naSa+/Hhrd+bQ83YkIMkJMy5bbXWR6z0BCZmAeMavFGD/XX9FBC8BAoGBAOZNQ/Q0/MvjV6Am3r3CbxxlcMKfvta+YJ057G3cwyb8oRczeJqOlLI+k0ZedU5bbVTG6HnsnZosCzMTkm7r4TSCYpT7uNxSn49Ghde3/gbxYvrnrJ3CCM1/cvFqlZMozAQX8KFunq14RvtvczTRUh4W13hIXTdHqRvoYjYW99HxAoGBANFUSjkpxDo0p+e1X6OoXCrKZOCasVLhkQdUimOdgM3Rh0XvGG7HUEg/AvzQigoiouTAMPw5jYpv58OykQMoYofvVvj1WVmgB1OEdZW2WACjLfw8qeytEDx/L+Zju99QfyFJFYEDZoChGM10ky+lmu64GnzVROiwU4dThBu5X4p/AoGBANhyIb2w1y5gmohAP/Oke3z6scGZFWkKQA9E0zpl01we7t+5Vk4cVxA203+9Yw6jytt0niWJBo5Req0kZemt81jAehp/gjw/wwqLQ1t851hrIZWii48xP8izUbonbDCElUn7ngJ6ztNGSaAiHOq1GDKDUTsQ99rulLdP7o3bhEphAoGAREKjTY60IXLoSePYQyr0mzOSv7dSGb/apjRISIGk7fjkjsaQBhfSsyxxEfYC/Zkb21Jc5vLxl/Iz9pn1Nb1mnANNLjP7pgFMQkzQdziV6+dKaJVzp+0rfT7QZOWi7wh13GnTrFVqiIl/6Aeas4/iPPQmFw0IwoQ1SMzQKKZDZIsCgYBeh51uzcOexPMersMHvpjJVwBv4Ni6Te2jyhX274KeF0rfSHMldthIV1eTBlDtbiTRAyxoF4HGheWqR+RlUOR1molUsPVODlBzhEGqs2I97duUk3X0WN7LCpYFxQvWkHOPy4QM5R2RT3K66X1jss6KTADb6cdHvO4xr0GwE4oSLg=='
+        }
+   }
+}

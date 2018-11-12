@@ -1,0 +1,40 @@
+[2018-09-01 18:38:48,794][MainThread:4008][default:ERROR(185)]
+[DictionaryList:get]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-01 18:55:46,064][MainThread:7156][default:ERROR(239)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-01 18:59:40,543][MainThread:7156][default:ERROR(185)]
+[DictionaryList:get]:list index out of range
+[2018-09-01 19:00:14,059][MainThread:1512][default:ERROR(185)]
+[DictionaryList:get]:list index out of range
+[2018-09-01 19:08:20,342][MainThread:5944][default:ERROR(185)]
+[DictionaryList:get]:list index out of range
+[2018-09-01 19:09:29,646][MainThread:5944][default:ERROR(185)]
+[DictionaryList:get]:list index out of range
+[2018-09-01 19:10:38,516][MainThread:5944][default:ERROR(185)]
+[DictionaryList:get]:list index out of range
+[2018-09-01 21:15:53,063][MainThread:6172][default:ERROR(161)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-01 21:17:46,152][MainThread:6076][default:ERROR(161)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-01 21:18:48,186][MainThread:6736][default:ERROR(162)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-01 21:28:04,587][MainThread:5320][default:ERROR(166)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-01 21:28:55,096][MainThread:6300][default:ERROR(168)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-01 21:31:40,800][MainThread:7624][default:ERROR(169)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-01 21:34:19,969][MainThread:7624][default:ERROR(169)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-01 21:34:31,404][MainThread:7624][default:ERROR(203)]
+[DictionaryList:get]:list index out of range
+[2018-09-01 21:34:36,044][MainThread:7624][default:ERROR(203)]
+[DictionaryList:get]:list index out of range
+[2018-09-01 21:34:38,856][MainThread:7624][default:ERROR(203)]
+[DictionaryList:get]:list index out of range
+[2018-09-01 21:34:41,893][MainThread:7624][default:ERROR(203)]
+[DictionaryList:get]:list index out of range
+[2018-09-01 21:42:45,756][MainThread:7884][default:ERROR(208)]
+[DictionaryList:get]:list index out of range
+[2018-09-01 21:42:49,998][MainThread:7884][default:ERROR(208)]
+[DictionaryList:get]:list index out of range

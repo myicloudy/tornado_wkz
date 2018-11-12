@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.ym-index-top-block{ background-color:#fff; padding:0.75rem; padding-bottom:0px;}
+.ym-top-left{ width:4.8rem; float:left; margin-right:0.5rem; height:3.8rem;}
+.ym-top-left img{ width:4.8rem; height:3.8rem; border-radius:0.2rem;}
+.ym-top-center{ width:calc(100% - 7.3rem); float:left;}
+.ym-top-center .ym-top-title{ font-size:0.7rem; line-height:1.1rem; margin-bottom:0.3rem; color:#333333;}
+.ym-top-center .ym-top-content{ font-size:0.6rem; line-height:0.8rem; height:2.4rem; color:#666;}
+.ym-top-right{ width:2rem; float:left; text-align:right !important; color:#3399ee; font-size:1.3rem; line-height:3.8rem;}
+.ym-top-right .aui-iconfont{ font-size:1.3rem;}
+
+.ym-index-top-block .aui-info{ padding:0px;}
+.ym-index-top-block .ym-contact-block{ margin-top:0.5rem; border-top:1px solid #dadada; font-size:0.7rem; color:#151515; height:2.4rem; line-height:2.4rem;}
+.ym-contact-block .aui-iconfont{ font-size:0.9rem !important; color:#3399ee;}
+
+.ym-select-time{ margin-top:0.5rem;}
+.ym-time-title .aui-tab-item.aui-active{color:#3399ee; border-bottom:1px solid #3399ee;}
+
+.ym-time-block{ width:100%; height:5.5rem; overflow:hidden; overflow-x:auto;}
+.ym-time-block ul{ padding-left:0.75rem; height:4.4rem; margin-top:0.6rem;}
+.ym-time-block ul li{ height:4rem; float:left; margin-right:0.6rem; width:3.8rem; border:1px solid #ddd; border-top:2px solid #bfbfbf; border-radius:0.2rem; text-align:center; font-size:0.6rem;background-color:#fff;}
+.ym-time-week{ color:#666; margin-top:0.7rem;}
+.ym-time-date{ color:#333333;}
+.ym-status-huo{ color:#f24343;}
+.ym-status-over{ color:#cfcfcf;}
+.ym-status-ding{ color:#5faf02;}
+
+.ym-place-device{ background-color:#fff; padding:0px 0.75rem; border-top:1px solid #dadada; border-bottom:1px solid #dadada;}
+.ym-place-device .ym-device-title{ color:#333; line-height:2.2rem; font-size:0.7rem;}
+.ym-device-content .aui-grid [class*=aui-col-]{ padding:0.5rem 0px;}
+.ym-device-content .aui-grid .aui-iconfont{ color:#ccc;}
+.ym-device-content .aui-grid .aui-grid-label{ color:#666;}
+
+.aui-list .aui-list-item-title{ font-size:0.7rem; color:#333;}
+.aui-list.aui-list-in .aui-list-item a{ display:block; width:100%;}

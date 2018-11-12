@@ -1,0 +1,442 @@
+﻿.indexTop {
+	width: 100%;
+	margin-top: 109px;
+	height: 337px;
+	overflow: hidden;
+	background: #ffd21a;
+}
+.indexTopShow {
+	position: relative;
+}
+.login {
+	position: absolute;
+	right: 0;
+	top: 27px;
+	width: 280px;
+	height: 300px;
+	background: url(../images/login_bg.png) no-repeat left top;
+}
+.loginErr {
+	position: absolute;
+	left: 18px;
+	top: 8px;
+	width: 204px;
+	height: 43px;
+	line-height: 43px;
+	text-align: left;
+	padding-left: 40px;
+	color: #f00;
+	background: url(../images/loginErr.png) no-repeat left top;
+	display: none;
+}
+.loginTop {
+	float: left;
+	width: 280px;
+	height: 37px;
+	font-size: 18px;
+	color: #fff;
+}
+.loginTop span {
+	float: left;
+	display: block;
+	width: 140px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+}
+.register {
+	background: #473b07;
+}
+.userLogin {
+	float: left;
+	width: 240px;
+	padding: 18px 20px 0;
+}
+.userLogin label {
+	float: left;
+	width: 240px;
+	height: 35px;
+	padding-bottom: 16px;
+}
+.userLogin input {
+	float: left;
+	width: 240px;
+	height: 35px;
+	border: none;
+	margin: 0;
+	padding: 0;
+	color: #888;
+	font-family: '微软雅黑', arial;
+}
+.userLogin input.userName {
+	padding-left: 50px;
+	width: 190px;
+	background: #fff url(../images/name.png) no-repeat left top;
+}
+.userLogin input.loginCheck {
+	width: 20px;
+}
+.userLogin input.userPwd,.userLogin input.pwdtxt {
+	padding-left: 50px;
+	width: 190px;
+	background: #fff url(../images/paw.png) no-repeat left top;
+}
+.userLogin input.userCode {
+	padding: 0 10px;
+	width: 120px;
+	background: #fff;
+}
+.userLogin label img {
+	float: right;
+	padding-left: 8px;
+}
+.userLogin button {
+	width: 240px;
+	height: 50px;
+	border: none;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color: #fff;
+	background: url(../images/login_bt.png) no-repeat left top;
+}
+.userLoginInfo {
+	font-size: 12px;
+	padding-top: 8px;
+	height: 35px;
+	line-height: 35px;
+	text-align: left;
+	color: #fff;
+}
+.userLoginInfo a {
+	color: #4cc3f4;
+}
+.userLoginEd {
+	float: left;
+	width: 240px;
+	padding: 18px 20px 0;
+	color: #fff;
+}
+.userLoginEd p {
+	float: left;
+	font-size: 18px;
+	text-align: left;
+	padding: 19px 0;
+}
+.userLoginEd ul {
+	float: left;
+	width: 240px;
+}
+.userLoginEd li {
+	float: left;
+	width: 240px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	border-bottom: 1px dashed #8d8d8d;
+	text-align: left;
+}
+.djs {
+	color: #24b5f1;
+}
+.dds {
+	color: #de952c;
+}
+.sy {
+	color: #ec3d3d;
+}
+.userLoginEd li span {
+	float: right;
+}
+.userLoginEd a {
+	float: left;
+	margin-top: 20px;
+	display: block;
+	width: 240px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	background: url(../images/re_bt_bg.png) no-repeat left top;
+}
+.indexAdv {
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+}
+.indexAdv li {
+	float: left;
+	width: 192px;
+	margin: 0 9px 9px 0;
+	padding: 42px 0 0 134px;
+	height: 82px;
+	border: 1px solid #e3e6e7;
+	box-shadow: 1px 1px 3px #e3e6e7;
+	text-align: left;
+	color: #7b7b7b;
+	font-size: 16px;
+}
+.indexAdv li.last {
+	margin: 0 0 9px 0;
+}
+.adv01 {
+	background: url(../images/index_top_01.png) no-repeat 37px 33px;
+}
+.adv02{
+	background: url(../images/index_top_02.png) no-repeat 37px 33px;
+}
+.adv03{
+	background: url(../images/index_top_03.png) no-repeat 37px 33px;
+}
+.adv04 {
+	background: url(../images/index_top_04.png) no-repeat 37px 33px;
+}
+.adv05 {
+	background: url(../images/index_top_05.png) no-repeat 37px 33px;
+}
+.adv06 {
+	background: url(../images/index_top_06.png) no-repeat 37px 33px;
+}
+.adv01 h3,.adv02 h3,.adv03 h3,.adv04 h3,.adv05 h3,.adv06 h3 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #82c24f;
+}
+.adv02 h3 {
+	color: #48b3d2;
+}
+.adv03 h3{
+	color: #de8b3a;
+}
+.adv04 h3 {
+	color: #65a7df;
+}
+.adv05 h3{
+	color: #eb6262;
+}
+.adv06 h3{
+	color: #4ccea2;
+}
+.indexLeft {
+	float: left;
+	width: 670px;
+	padding-top: 12px;
+}
+.indexAds, .indexProcess {
+	float: left;
+	width: 664px;
+	height: 229px;
+	border: 1px solid #e3e6e7;
+	box-shadow: 1px 1px 3px #e3e6e7;
+}
+.indexProcess {
+	margin-top: 18px;
+	height: 181px;
+}
+.indexProcess h3 {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	color: #626262;
+	width: 640px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 12px;
+	border-bottom: 1px solid #e6e6e6;
+	text-align: left;
+}
+.process {
+	float: left;
+	width: 660px;
+	padding-top: 25px;
+}
+.process li {
+	float: left;
+}
+.pro01,.pro02,.pro03,.pro04 {
+	width: 150px;
+	padding-top: 74px;
+	height: 26px;
+	background: url(../images/regist.png) no-repeat center top;
+}
+.pro02 {
+	background: url(../images/huoqu.png) no-repeat center top;
+}
+.pro03 {
+	background: url(../images/ggtf.png) no-repeat center top;
+}
+.pro04 {
+	background: url(../images/ge.png) no-repeat center top;
+}
+.proSpan {
+	width: 17px;
+	height: 100px;
+	background: url(../images/direction.png) no-repeat 0 18px;
+}
+.indexRight {
+	float: left;
+	width: 326px;
+	margin: 13px 0 0 4px;
+	border: 1px solid #e3e6e7;
+	box-shadow: 1px 1px 3px #e3e6e7;
+}
+.indexRight h3 {
+	float: left;
+	margin: 0 20px;
+	width: 286px;
+	height: 38px;
+	text-align: left;
+	line-height: 38px;
+	font-size: 18px;
+	color: #626262;
+	font-weight: normal;
+	border-bottom: 1px solid #e6e6e6;
+}
+.topCom {
+	float: left;
+	width: 286px;
+	height: 370px;
+	margin: 10px 20px;
+	text-align: left;
+}
+.topCom li {
+	float: left;
+	width: 286px;
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px dashed #e7e7e7;
+}
+.comNum {
+	float: left;
+	display: block;
+	width: 25px;
+	height: 36px;
+	text-align: center;
+	color: #fff;
+	background: url(../images/other.png) no-repeat left center;
+}
+.comName {
+	float: left;
+	width: 114px;
+	padding-left: 38px;
+}
+.comMoney {
+	float: left;
+	width: 109px;
+}
+.first .comNum {
+	background: url(../images/one.png) no-repeat left center;
+}
+.second .comNum {
+	background: url(../images/two.png) no-repeat left center;
+}
+.third .comNum {
+	background: url(../images/three.png) no-repeat left center;
+}
+.topCom li.last {
+	border-bottom: none;
+}
+.partners {
+	float: left;
+	width: 664px;
+	border: 1px solid #e3e6e7;
+	box-shadow: 1px 1px 3px #e3e6e7;
+}
+.partners h3 {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	color: #626262;
+	width: 640px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 12px;
+	border-bottom: 1px solid #e6e6e6;
+	text-align: left;
+}
+.partners ul {
+	float: left;
+	width: 640px;
+	padding: 20px 12px;
+}
+.partners li {
+	float: left;
+	width: 150px;
+	height: 70px;
+	border: 1px solid #eee;
+	margin: 5px 4px;
+}
+.topNews {
+	float: left;
+	margin: 0 20px;
+	width: 286px;
+	height: 38px;
+	text-align: left;
+	line-height: 38px;
+	font-size: 18px;
+	color: #626262;
+	font-weight: normal;
+	border-bottom: 1px solid #e6e6e6;
+}
+.topNews h3 {
+	float: left;
+	margin: 0;
+	border-bottom: none;
+	width: 200px;
+}
+.topNews span {
+	float: left;
+	width: 86px;
+	height: 38px;
+	display: block;
+	text-align: right;
+}
+.topNews span a {
+	color: #919191;
+	font-size: 14px;
+}
+.newsList {
+	float: left;
+	width: 286px;
+	padding: 0 20px;
+}
+.newsList  li {
+	float: left;
+	width: 286px;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px dashed #e7e7e7;
+	text-align: left;
+	font-size: 12px;
+}
+.newsList li span {
+	float: right;
+}
+.newsList a {
+	color: #919191;
+}
+.newsList  li.last {
+	border-bottom: none;
+}
+.contactUs {
+	width: 272px;
+	height: 58px;
+	padding: 82px 0 0 54px;
+	text-align: left;
+	background: url(../images/tel.png) no-repeat left top;
+	box-shadow: 1px 1px 3px #e3e6e7;
+	color: #e7e7e7;
+	font-size: 16px;
+	line-height: 24px;
+}
+.bigPartners {
+	float: left;
+	width: 1000px;
+	padding: 60px 1px 10px;
+}
+.bigPartners  li {
+	float: left;
+	width: 220px;
+	height: 193px;
+	padding: 0 15px;
+}

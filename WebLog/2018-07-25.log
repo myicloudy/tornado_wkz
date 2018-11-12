@@ -1,0 +1,4 @@
+[2018-07-25 17:32:12,183][MainThread:140736079606656][default:INFO(214)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-25 17:33:38,083][MainThread:140736079606656][default:WARNING(100)]
+[Index:get]:not enough values to unpack (expected 3, got 0)

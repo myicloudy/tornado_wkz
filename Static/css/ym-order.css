@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.aui-list .aui-list-item-label{ font-size:0.7rem; color:#333;}
+.aui-input, input[type="text"], input[type="password"], input[type="search"], input[type="email"], input[type="tel"], input[type="url"], input[type="date"], input[type="datetime-local"], input[type="time"], input[type="number"], select, textarea{ color:#333; font-size:0.7rem;}
+
+.ym-order-tips{ height:2.2rem; font-size:0.7rem; color:#666; line-height:2.2rem; padding:0px 0.75rem;}
+
+.ym-order-goods-block{ background-color:#fff; padding:0.75rem; padding-bottom:0px;border-bottom:1px solid #dadada; border-top:1px solid #dadada;}
+.ym-order-goods-left{ width:4.8rem; float:left; margin-right:0.5rem; height:3.8rem;}
+.ym-order-goods-left img{ width:4.8rem; height:3.8rem; border-radius:0.2rem;}
+.ym-order-goods-center{ width:calc(100% - 5.3rem); float:left;}
+.ym-order-goods-center .ym-order-goods-title{ font-size:0.7rem; line-height:1rem; color:#333333; margin-bottom:0.2rem;}
+.ym-order-goods-center .ym-order-goods-content{ font-size:0.6rem; line-height:0.8rem; height:1.6rem; color:#666;}
+.ym-order-goods-center .ym-order-price{ color:#f79b38; font-size:0.8rem; line-height:0.8rem; margin-top:0.2rem;}
+
+.ym-order-time{ margin-top:0.75rem; padding-top:0.75rem; border-top:1px solid #dadada;}
+.ym-order-time .ym-order-time-title{ font-size:1rem; color:#333; line-height:1.5rem;}
+.ym-order-time .ym-order-time-title span{ font-size:0.7rem;}
+.ym-order-time .ym-order-time-content{ line-height:1.2rem; color:#666; font-size:0.7rem;}
+
+.aui-list .aui-list-item-title{ font-size:0.7rem; color:#333;}
+.ym-counpons-num{ height:1rem; border:1px solid #f79b38; color:#f79b38; font-size:0.6rem; display:inline-block; padding:0px 0.5rem; line-height:0.9rem; border-radius:0.1rem;}
+.aui-list .aui-list-item a{ display:block; width:100%;}
+
+.ym-order-info{ border-top:1px solid #dadada; border-bottom:1px solid #dadada; background-color:#fff; padding:0px 0.75rem;}
+.ym-order-info .aui-info{ color:#333; font-size:0.7rem; padding:0px; height:2rem; line-height:2rem;}
+.ym-order-info .aui-info .ym-order-info-right{ color:#f79b38;}
+.ym-order-info .aui-info .ym-order-info-item{ color:#ccc;}
+
+.ym-contact-block.aui-info{ height:2.2rem; line-height:2.2rem; padding:0px;color:#333;}
+.ym-contact-block{ margin-top:0.5rem; border-top:1px solid #dadada; font-size:0.7rem; color:#333; height:2.2rem; line-height:2.2rem;}
+.ym-contact-block .aui-iconfont{ font-size:0.9rem !important; color:#3399ee;}
+
+.ym-select-footer{ position:fixed; height:2.5rem; width:100%; bottom:0px; left:0px; background-color:#fff; z-index:99;}
+.ym-select-price{ color:#f79b38; font-size:0.8rem; width:calc(100% - 6rem); float:left; border-top:1px solid #ddd; text-indent:0.75rem; line-height:2.5rem;}
+.ym-confirm-btn{ width:6rem; float:left; background-color:#3399ee; font-size:0.8rem; color:#fff; display:block; height:2.5rem; text-align:center; line-height:2.5rem;}
+.ym-confirm-btn.ym-disabled-btn{ background-color:#ccc;}
+.ym-userorder-left{ border-top:1px solid #dadada; width:calc(100% - 12rem); float:left;}
+.ym-canncel-btn{ width:6rem; float:left; background-color:#f79b38; font-size:0.8rem; color:#fff; display:block; height:2.5rem; text-align:center; line-height:2.5rem;}

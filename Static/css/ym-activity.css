@@ -1,0 +1,10 @@
+@charset "UTF-8";
+html,body{ background-color:#fff;}
+.ym-detail-block{ padding:0.75rem;}
+.ym-detail-block .ym-detail-title{ line-height:2.2rem; font-size:0.8rem; color:#333;}
+.ym-detail-block .ym-detail-subtitle{ line-height:1.2rem; font-size:0.7rem;}
+.ym-detail-block .ym-detail-subtitle .aui-info{ padding:0px; color:#ccc;}
+.ym-detail-block .ym-detail-content{ color:#666; line-height:1.2rem; font-size:0.7rem; margin-top:0.75rem;}
+
+.ym-activity-list ul li{ margin-bottom:0.5rem; position:relative;}
+.ym-activity-title{ position:absolute; height:2rem; line-height:2rem; color:#fff; width:100%; background:rgba(0,0,0,0.3); left:0px; bottom:0px; font-size:0.7rem; text-indent:0.75rem;}

@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.ym-user-top{ height:8rem; background-color:#3399ee; padding-top:1rem;}
+.ym-user-top img{ border-radius:50%; width:4rem; height:4rem; margin:0 auto;}
+.ym-user-name{ font-size:0.7rem; color:#fff; text-align:center; height:2rem; line-height:2rem; margin-top:1rem;}
+.aui-list .aui-list-item-title{ font-size:0.7rem; color:#333;}
+.aui-list.aui-list-in .aui-list-item a{ display:block; width:100%;}

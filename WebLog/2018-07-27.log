@@ -1,0 +1,124 @@
+[2018-07-27 09:34:06,525][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 09:34:14,520][MainThread:140736079606656][default:INFO(187)]
+[Index:get]:当前计算日期：2018-07-26<br>当前时间：2018-07-27 09:09:06<br>当前bid：183<br>当前分析器id：249<br>计算分析器名称：2<br>#####start#####循环字方法分析数据##########<br>********************************<br>计算当前的节点名称:频率热度<br>当前计算是：卡券使用频率/倾向--热度<br>默认查询一个星期的卡券操作记录<br>从卡券操作log数据库中取出数据:9678<br>实例化到Pandas中数据有:9678<br>在选择的卡券来源的数据有:43<br>userId去重后数据有:33<br>商圈的所有注册用户数据有:125725<br>所有注册用户与积分来源数据交集后:33<br>节点的第一个，返回自己的数据:33<br>analysis_coupons_use_hot方法返回来数据条数:33<br>********************************<br>#####end#####循环字方法分析数据##########<br>所有子方法执行后返回来数据条数:33<br>注册用户数据:33<br>微信用户数据:0<br>注册用户数据其中有openid的数据有:33<br>微信数据其中有用户基础数据的有:0<br>微信数据和用户基础数据拼接后:33<br>写入数据库有:33<br>总计执行时间:8.009286165237427秒<br>
+[2018-07-27 09:34:39,157][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 09:34:39,463][MainThread:140736079606656][default:WARNING(102)]
+[Index:get]:'NoneType' object is not iterable
+[2018-07-27 09:34:59,937][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 09:35:00,225][MainThread:140736079606656][default:WARNING(102)]
+[Index:get]:'NoneType' object is not iterable
+[2018-07-27 09:35:49,558][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 09:39:50,254][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 09:41:00,711][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 09:41:09,254][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 09:46:01,369][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 09:46:08,295][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 09:52:12,764][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 09:52:19,393][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 09:52:19,802][MainThread:140736079606656][default:WARNING(102)]
+[Index:get]:'Series' objects are mutable, thus they cannot be hashed
+[2018-07-27 09:53:05,337][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:01:43,862][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:01:51,809][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:01:52,269][MainThread:140736079606656][default:WARNING(102)]
+[Index:get]:'Column not found: countType'
+[2018-07-27 10:01:53,780][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:01:54,151][MainThread:140736079606656][default:WARNING(102)]
+[Index:get]:'Column not found: countType'
+[2018-07-27 10:02:38,923][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:04:04,768][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:04:10,562][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:05:02,446][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:05:09,224][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:08:58,567][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:10:06,585][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:10:15,187][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:17:34,435][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 10:17:45,218][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:01:35,629][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:16:51,682][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:16:54,563][MainThread:140736079606656][default:WARNING(102)]
+[Index:get]:'NoneType' object is not iterable
+[2018-07-27 11:17:33,940][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:19:11,348][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:19:16,667][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:25:38,013][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:25:45,851][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:30:03,406][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:33:14,204][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:36:47,199][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:36:59,927][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:37:03,159][MainThread:140736079606656][default:WARNING(102)]
+[Index:get]:'DataFrame' object has no attribute 'set_option'
+[2018-07-27 11:41:07,184][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:42:39,300][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:42:45,439][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:47:07,392][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 11:47:16,581][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 14:26:41,574][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 16:06:18,468][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 16:11:12,522][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 16:11:18,361][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 16:19:46,464][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 16:19:52,669][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 16:22:02,717][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 16:22:10,091][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 16:23:50,601][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 16:23:56,914][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 16:41:00,481][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 16:41:22,183][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在
+[2018-07-27 17:03:06,553][MainThread:140736079606656][default:INFO(216)]
+[Index:checkTableName]:bid:183的表已经存在

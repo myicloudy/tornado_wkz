@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import url(aui.css);
+html,body{ background-color:#efefef;}
+html,body,header,footer,div,ul,ol,li,img,a,span,em,del,legend,center,strong,var,fieldset,form,label,dl,dt,dd,cite,input,hr,time,mark,code,figcaption,figure,textarea,h1,h2,h3,h4,h5,h6,p{-webkit-font-smoothing: antialiased;-webkit-text-size-adjust:none;text-size-adjust:none;-webkit-appearance:none;font-family:"Muli",'Helvetica Neue','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif !important;-webkit-font-smoothing:antialiased;list-style:none; text-decoration:none;}
+.clearfix:after{content: ' ';display: block;clear: both;visibility:hidden;line-height: 0;height:0;}
+
+#ym-footer-nav{color:#666; height: 2.5rem;z-index:9999;}
+#ym-footer-nav .aui-bar{ border-top: 1px solid #dadada; }
+#ym-footer-nav a{ color:#666; display:block;}
+#ym-footer-nav .bottom-active{color:#3399ee !important;}
+#ym-footer-nav .bottom-active a{ color:#3399ee;}
+
+#ym-tabselect{ height: 2.5rem; line-height: 2.5rem;}
+#ym-tabselect .aui-tab-item.aui-active{font-size: 0.8rem;color: #3399ee;border-bottom: 1px solid #3399ee;}
+#ym-tabselect .aui-tab-item{ height: 2.5rem; line-height: 2.5rem;font-size: 0.8rem;color: #666; border-bottom: 1px solid #ccc;}
+#ym-tabselect .aui-tab-item a{ color:#666;}
+@media screen and (-webkit-min-device-pixel-ratio: 1.5){
+	#ym-tabselect .aui-tab-item{border: none;background-size: 100% 1px;background-repeat: no-repeat;background-position: bottom;background-image: linear-gradient(0,#cccccc,#cccccc 50%,transparent 50%);background-image: -webkit-linear-gradient(90deg,#cccccc,#cccccc 50%,transparent 50%);}
+}

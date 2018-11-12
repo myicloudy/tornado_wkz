@@ -1,0 +1,28 @@
+/*支付中心*/
+html,body{ overflow:hidden;font-family: Muli,'Helvetica Neue','Hiragino Sans GB','WenQuanYi Micro Hei','Microsoft Yahei',sans-serif !important;-webkit-font-smoothing:antialiased;font-size:14px;}
+html,body,header,section,footer,div,ul,ol,li,img,a,span,em,del,legend,center,strong,var,fieldset,form,label,dl,dt,dd,cite,input,hr,time,mark,code,figcaption,figure,textarea,h1,h2,h3,h4,h5,h6,p,select{margin:0;border:0;padding:0;font-style:normal;outline:none;-webkit-font-smoothing: antialiased;-webkit-text-size-adjust:none;text-size-adjust:none;-webkit-appearance:none;border-radius:0; }
+html,body,a{-webkit-touch-callout:none;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);-webkit-user-select:none;-webkit-font-smoothing: antialiased;}
+img,a,button,em,del,strong,var,label,cite,small,time,mark,code,textarea{display:inline-block;}
+header,section,footer {	position:relative;}
+ol,ul,li{list-style:none;}
+a,a:active,a:focus{ outline:none; box-shadow:none;}
+
+.payContent{padding:15px; background:url(../images/payContentBg.png) repeat-x left bottom #ffffff;}
+.payTitle{ color:#8a8a8a; font-size:1.5em; padding:0px;}
+.payMoneyContent{ margin:0px; padding:0px;}
+.payMoney{ color:#ff6602; font-size:2.4em; padding:0px; margin:15px 0px;}
+.payMoney span{ font-size:0.7em;}
+.payUser{ padding:15px 0px; font-size:1.3em; color:#8b8b8b; border-top:1px dashed #dbdbdb;}
+
+.payList{ padding:15px;}
+.payList .row{ padding:0px; background-color:#fff; margin-top:20px; height:60px; line-height:60px; font-size:1.5em; color:#8f8f8f;}
+.payList .row a{ display:block; color:#8f8f8f;}
+.payList .row div{ height:60px; line-height:60px;}
+.payIcon img{ max-height:40px; margin-top:10px; float:left;}
+.payList .row .rightArrow img{ max-height:20px; margin-top:20px; float:right;}
+
+.payInfo{ margin-top:30px;}
+.payInfo .payTips{ height:24px; line-height:24px; font-size:1.1em; color:#a3a3a3;}
+.payInfo .success{ color:#3fcf18; font-size:1.4em; height:40px; line-height:40px;}
+.payInfo .error{ color:#fa2a2a; font-size:1.4em; height:40px; line-height:40px;}
+.navbar-fixed-bottom{ height:40px; line-height:40px; color:#8f8f8f;}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.ym-feedback-title{ line-height:2.25rem; background-color:#fff; margin-bottom:0.5rem; height:2.25rem; color:#333; font-size:0.7rem; padding:0px 0.75rem;}
+.ym-submit-btn{ height:2rem; line-height:2rem; margin:1rem 0.75rem; background-color:#3399ee; color:#fff; border-radius:0.2rem; text-align:center; font-size:0.8rem;}
+.aui-list .aui-list-item-label{ font-size:0.7rem; color:#666;}
+.aui-input, input[type="text"], input[type="password"], input[type="search"], input[type="email"], input[type="tel"], input[type="url"], input[type="date"], input[type="datetime-local"], input[type="time"], input[type="number"], select, textarea{ color:#333; font-size:0.7rem;}
+
+.ym-tips-title{ line-height:1.5rem; background-color:#fff; padding:0px 0.75rem; height:1.5rem; color:#666; font-size:0.7rem;}
+.ym-tips-content{ padding:0px 0.75rem;}
+.ym-tips-content textarea{ height:4rem; line-height:1rem; background-color:#efefef; width:100%;}

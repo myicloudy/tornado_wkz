@@ -1,0 +1,34 @@
+[2018-09-04 09:26:03,634][MainThread:5048][default:ERROR(191)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-04 09:42:09,151][MainThread:1900][default:ERROR(180)]
+[DictionaryList:post]:MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.
+[2018-09-04 09:42:54,353][MainThread:3804][default:INFO(217)]
+[DictionaryList:get]:删除redis失败，对应的键不存在
+[2018-09-04 10:05:00,397][MainThread:2704][default:ERROR(160)]
+[DictionaryList:post]:(pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'dasd\': "\'qqq\'"}, \'\', \'1\', 1536026700, 1536026700, 1535990400)\' at line 1') [SQL: 'INSERT INTO online_dictionary_list (`dictId`, `valKey`, value, remark, status, intime, uptime, indate) VALUES (%(dictId)s, %(valKey)s, %(value)s, %(remark)s, %(status)s, %(intime)s, %(uptime)s, %(indate)s)'] [parameters: {'dictId': '34', 'valKey': '12', 'value': {'dasd': 'qqq'}, 'remark': '', 'status': '1', 'intime': 1536026700, 'uptime': 1536026700, 'indate': 1535990400}] (Background on this error at: http://sqlalche.me/e/f405)
+[2018-09-04 10:10:02,506][MainThread:4424][default:INFO(218)]
+[DictionaryList:get]:删除redis失败，对应的键不存在
+[2018-09-04 10:44:18,566][MainThread:7320][default:INFO(220)]
+[DictionaryList:get]:删除redis失败，对应的键不存在
+[2018-09-04 10:56:06,727][MainThread:7804][default:INFO(175)]
+[DictionaryList:post]:写入redis异常，异常信息为：
+[2018-09-04 10:58:09,944][MainThread:8088][default:INFO(176)]
+[DictionaryList:post]:写入redis异常
+[2018-09-04 10:58:50,858][MainThread:8088][default:INFO(340)]
+[DictionaryList:post]:修改redis失败
+[2018-09-04 11:02:45,990][MainThread:8160][default:INFO(176)]
+[DictionaryList:post]:写入redis异常
+[2018-09-04 11:03:16,311][MainThread:8160][default:INFO(222)]
+[DictionaryList:get]:删除redis失败，对应的键不存在
+[2018-09-04 11:04:01,606][MainThread:8160][default:INFO(316)]
+[DictionaryList:post]:修改redis异常
+[2018-09-04 11:13:06,362][MainThread:6124][default:INFO(176)]
+[DictionaryList:post]:写入redis异常
+[2018-09-04 11:14:03,036][MainThread:7208][default:INFO(176)]
+[DictionaryList:post]:写入redis异常
+[2018-09-04 11:14:52,696][MainThread:6100][default:INFO(177)]
+[DictionaryList:post]:写入redis异常
+[2018-09-04 14:04:58,451][MainThread:612][default:INFO(163)]
+[DictionaryList:post]:写入redis异常
+[2018-09-04 20:03:28,661][MainThread:9212][default:INFO(302)]
+[DictionaryList:post]:修改redis异常

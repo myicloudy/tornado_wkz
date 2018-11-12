@@ -1,0 +1,4 @@
+##ignore this file##
+.idea/
+*.pyc  
+/.idea/httpRequests/http-requests-log.http

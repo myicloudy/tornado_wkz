@@ -1,0 +1,174 @@
+﻿.header_pro {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 126px;
+	background: url(../images/header_bg.png) repeat-x left top;
+	z-index: 2;
+}
+.m_left{
+	float:left;
+	width:326px;
+	margin-top:20px;
+}
+.m_top{
+	width:326px;
+	height:140px;
+	background: url(../images/tel.png) repeat left top;
+}
+.peop{
+	padding:84px 0px 0px 55px;
+	font-size:16px;
+	color:#ffffff;
+	text-align:left;
+}
+.peopMess{
+	padding-left:55px;
+	font-size:16px;
+	color:#ffffff;
+	text-align:left;
+}
+.m_top h3, .m_bot h3, .m_right h3{
+	float:left;
+	width:75px;
+	padding-top:7px;
+	padding-left:23px;
+	font-size:18px;
+	color:#626262;
+	font-family:normal;
+	text-align:left;
+	display:inlin-block;
+}
+.onlie, .ri_onlie, .detail_onlie{
+	float:left;
+	width:290px;
+	height:1px;
+	margin-top:10px;
+	margin-left:20px;
+	background:#e6e6e6;
+}
+.m_right{
+	float:left;
+	width:664px;
+	margin:20px 0px 0px 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	padding-bottom: 30px;
+	background:#ffffff;
+}
+.m_right h3{
+	width: 641px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+}
+.ri_onlie{
+	width:624px;
+}
+.ri_list{
+	margin-top: 10px;
+	margin-left:30px;
+}
+.ri_list li{
+	float:left;
+	width:606px;
+	height:48px;
+	line-height:48px;
+	text-align:left;
+	font-size:16px;
+	color:#919191;
+	text-indent:1em;
+	border-bottom: 1px dashed #e7e7e7;
+}
+.ri_list span{
+	font-size:12px;
+}
+.mess_title{
+	float:left;
+	width:564px;
+	height:76px;
+	padding:10px 0 10px 100px;
+	line-height:76px;
+	font-size:16px;
+	color:#8e8e8e;
+	text-align:left;
+}
+.u_info{
+	float:left;
+	width:584px;
+	padding:0  0 30px 80px;
+}
+
+.regLine {
+    float: left;
+    font-size: 16px;
+    height: 37px;
+    line-height: 37px;
+    padding-bottom: 23px;
+    text-align: left;
+    width: 100%;
+}
+.regLine label {
+    float: left;
+    text-align: right;
+    width: 106px;
+	font-size:16px;
+	color:#8e8e8e;
+}
+.regLine label em {
+    color: #f00;
+    font-style: normal;
+    line-height: 37px;
+    padding-right: 10px;
+}
+.regLine span {
+    color: #888;
+    float: left;
+    font-size: 12px;
+    padding-left: 12px;
+	display: none;
+	width: 157px;
+}
+.normal {
+    border: 1px solid #ccc;
+    float: left;
+    height: 35px;
+    padding: 0 12px;
+	margin: 0;
+    width: 283px;
+	font-family: '微软雅黑', arial;
+	color: #666;
+}
+.no_height{
+	height:216px;
+	font-size: 12px;
+}
+.re_mar{
+	margin-top:200px;
+}
+.regLine button {
+    background: url(../images/re_bt_bg.png) no-repeat;
+    border:none;
+    color: #fff;
+    font-size: 24px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    width: 240px;
+}
+.agr_title{
+	float:left;
+	width:510px;
+	height:76px;
+	margin:0 80px;
+	line-height:76px;
+	font-size:16px;
+	color:#626262;
+	text-align:center;
+}
+.agr_cont{
+	width:609px;
+	margin:0px 27px 0 27px;
+	line-height:22px;
+	font-size:12px;
+	color:#626262;
+	text-align:left;
+}

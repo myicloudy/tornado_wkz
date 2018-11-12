@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.ym-order-img{width:4.8rem; height:3.8rem; float:left; margin-right:0.5rem;}
+.ym-order-img img{width:4.8rem; height:3.8rem; border-radius:0.2rem;}
+.ym-order-title{ float:left; width:calc(100% - 5.3rem);font-size:0.7rem; line-height:1.1rem; margin-bottom:0.3rem; color:#333333;}
+.ym-order-btn-pay{ width:4rem; height:1.5rem; text-align:center; line-height:1.5rem; border:1px solid #f79b38; border-radius:0.2rem; color:#f79b38; display:block;}
+.ym-order-btn-buy{ width:4rem; height:1.5rem; text-align:center; line-height:1.5rem; border:1px solid #3399ee; border-radius:0.2rem; color:#3399ee; display:block;}
+.ym-order-price em{ color:#f79b38;}
